@@ -14,13 +14,13 @@ Load code based on the tags of a tumblr post.
   plugins.tag2 = function($elem) { … };
   plugins.tag3 = function($elem) { … };
 </script>
-
+```
 3. Launch the plugin: 
 ```js
 <script type="text/javascript">
   $(function() {
-    $("article").tumblrPlugins({ tag: "li.tag a", plugins: ["tag1", "tag2", "tag3"] });
-  });
+    $("article").tumblrPlugins({ tag: "li.tag a", plugins: ["tag1", "tag2", "tag3"] });  
+  });  
 </script>
 ```
 
