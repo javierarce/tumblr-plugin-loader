@@ -1,7 +1,7 @@
-tumblr-plugins
+tumblr-plugin-loader
 ==============
 
-Load code based on the tags of a tumblr post.
+Load JavaScript code based on the tags of a Tumblr post.
 
 ### Installation
 
